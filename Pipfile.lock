@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "996bb82c52800597d0f4fb05cd97b5f180688b1fa49f123a531e2206a46edfbc"
+            "sha256": "73062bef27e5b02c4847391e77cd3227e7580128f9b12c4e96782c1098f2aeb1"
         },
         "requires": {
             "python_version": "3.6"
@@ -20,6 +20,9 @@
         "flask": {
             "version": "==0.12.2"
         },
+        "flask-pymongo": {
+            "version": "==0.5.1"
+        },
         "gunicorn": {
             "version": "==19.7.1"
         },
@@ -31,6 +34,9 @@
         },
         "markupsafe": {
             "version": "==1.0"
+        },
+        "pymongo": {
+            "version": "==3.4.0"
         },
         "werkzeug": {
             "version": "==0.12.2"
