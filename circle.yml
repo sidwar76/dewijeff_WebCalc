@@ -1,13 +1,13 @@
 machine:
   python:
-    version:3.6.1
+    version: 3.6.1
 
 dependencies:
   pre:
-    -pip install pipenv
+    - pip install pipenv
   override:
-    -pipenv install --dev
+    - pipenv install --dev
 
 test:
   override:
-    -pipenv run pytest
+    - pipenv run pytest
